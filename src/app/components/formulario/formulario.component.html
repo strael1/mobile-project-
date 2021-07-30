@@ -1,0 +1,17 @@
+<div class="form-model container">
+    <div>
+        <input [(ngModel)]="nameInput" class="form-control" type="text"  placeholder="Nome de usuário"/>
+        <input [(ngModel)]="phoneInput" class="form-control" type="text" placeholder="Número de Telefone"/>
+        <button (click)="createContact()" class="btn default">Criar Novo Contato</button>
+    </div>
+
+    <div class="mt-40">
+        <ul class="form-list">
+            <li class="d-flex justify-content-between" *ngFor="let user of users; let id=index">
+                <p>{{ user.name }}</p>
+                <p>{{ user.phone }}</p>
+                <div><button (click)="deleteContact(id)" class="btn-list-user delete">Excluir</button></div>
+            </li>
+        </ul>
+    </div>
+</div>

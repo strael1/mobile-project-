@@ -1,0 +1,61 @@
+.form-model {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-control {
+    padding: 15px;
+    border: solid 1px #cecece;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 16.2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 93%;
+}
+
+.default {
+    background: orange;
+    color: #fff;
+    border: solid 1px ;
+}
+
+.form-list p {
+    margin: 0;
+}
+
+.form-list li {
+    border: solid 1px #cecece;
+    padding: 15px;
+    border-radius: 5px;
+    background: #121212;
+    color: #fff;
+    border-left: 7px solid orange;
+    margin-bottom: 10px;
+}
+
+.btn-list-user {
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.delete {
+    color: #fff;
+    background: #eb4d4b;
+    border: solid 1px #eb4d4b;
+}
+
+
+

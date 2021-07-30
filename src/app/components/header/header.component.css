@@ -1,0 +1,31 @@
+.main-header {
+    background: orange;
+    color: #fff; 
+    padding: 10px;
+}
+
+.nav-bar-btn {
+    cursor: pointer!important;
+}
+
+.main-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.main-list li {
+    padding: 13px 0;
+    margin: 6px 0;
+    border: solid 1px #eee;
+}
+
+.main-list a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+

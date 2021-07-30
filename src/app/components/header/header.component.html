@@ -1,0 +1,22 @@
+<header class="main-header">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div>
+              <i class="fa fa-html5 fa-3x"></i>
+            </div>
+          
+            <div>
+              <span class="nav-bar-btn" (click)="dropDown()">
+                  <i class="fa fa-bars fa-3x"></i>
+                </span>
+            </div>
+        </div>
+
+        <div *ngIf="btnDropdown == true">
+            <ul class="main-list">
+                <li (click)="tabMenu('trabalho')">Trabalhos</li>
+                <li (click)="tabMenu('contato')">Contato</li>
+            </ul>
+        </div>
+    </div>
+</header>
